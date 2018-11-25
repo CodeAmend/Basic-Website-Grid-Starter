@@ -1,0 +1,35 @@
+// LAYOUT
+$logo-margin: 1.5rem;
+$logo-size: 5rem;
+
+.header {
+
+    background-color: $color-hero-bg;
+    height: 100vh;
+
+    &__logo-box {
+        position: absolute;
+        text-align: center;
+        top: $logo-margin;
+        left: $logo-margin;
+        width: $logo-size;
+        height: $logo-size;
+        background-color: rgba($color-light-blue, 0.2);
+        font-size: 1.5rem;
+    }
+
+    &__logo {
+        line-height: $logo-size;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+.grid-section {
+    height: 100vh;
+}
