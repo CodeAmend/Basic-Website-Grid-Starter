@@ -2,10 +2,17 @@
 $logo-margin: 1.5rem;
 $logo-size: 5rem;
 
+$hero-section-margin: 0rem;
+$hero-section-padding: 0;
+$grid-section-margin: 3rem;
+$grid-section-padding: 0;
+
 .header {
 
     background-color: $color-hero-bg;
     height: 100vh;
+    margin: $hero-section-margin;
+    padding: $hero-section-padding;
 
     &__logo-box {
         position: absolute;
@@ -32,4 +39,6 @@ $logo-size: 5rem;
 
 .grid-section {
     height: 100vh;
+    margin: $grid-section-margin;
+    padding: $grid-section-padding;
 }
